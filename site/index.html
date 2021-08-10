@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="containter" id="first-con">
+            <div id="row1" class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <h2 id="logo">dine</h2>
+                </div>
+            </div>
+            <div class="row" id="row-2">
+                <div id="col1" class="col-lg-6 col-md-12 col-sm-12">
+                    <h2 id="t1">Reservations</h2>
+                    <p id="p1">We can't wait to host you. If you have any speacial requirements please feel free to call on the phone number below. We will be happy to accommodate you.</p>
+
+                    <center> <button id="b1">RESERVE PLACE</button>
+                    </center>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container-fluid" id="second-con">
+            <div class="row" id="r1">
+                <div id="row-3" class="col-lg-12 col-md-12 col-sm-12">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                                    <label for="date">
+                                        Pick a date
+                                    </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-8">
+                                    <input class="date" type="day" name="" id="" placeholder="MM">
+                                    <input placeholder="DD" class="date" type="month" name="" id="">
+                                    <input class="date" placeholder="YYYY" type="year" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                                    <label for="time">
+                                        Pick a time
+                                    </label>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-8">
+                                    <input class="time" type="day" name="" id="" placeholder="09">
+                                    <input placeholder="00" class="time" type="month" name="" id="">
+                                    <select name="time" class="time" id="">
+                                        <option value="AM">AM</option>
+                                        <option value="PM">PM</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="number form-group ">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <span class="minus">-</span>
+                                    <input type="text" value="4 People" />
+                                    <span class="plus">+</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <button id="b2" type="submit" class="btn ">MAKE RESERVATION</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid" id="third-con">
+                <div class="row" id="row-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h2>dine</h2>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <p>
+                                    MARTHWAITE. SEDBERGH
+                                    <br> cumbria
+                                    <br>+00 44 123 4567
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <p>
+                                    open times
+                                    <br>mon - fri: 09:00 am - 10:00 pm
+                                    <br>sat - sun: 09:00 am - 11:30 pm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </main>
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>
